@@ -1,0 +1,40 @@
+.main{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-weight: 700;
+    color: #607196;
+}
+
+.buttons button{
+
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #607196;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #babfd1;
+    border-color: #861657;
+    box-shadow: 0 9px #999;
+}
+button:hover {background-color: #ff7b9c}
+
+button:active {
+  background-color: #ff7b9c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
